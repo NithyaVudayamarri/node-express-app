@@ -18,7 +18,13 @@ app.get('/hey',  (req, res) =>{
 
 app.get('/greeting/:id',  (req, res) =>{
   res.send('Hello! The id was ' + req.params.id)
+
 })
+app.get('/d',  (req, res) =>{
+  res.send('Hello! The id was '.link("https://media1.tenor.com/images/d62281d142846278c307598c4a9f0da3/tenor.gif?itemid=7427051"))
+
+})
+
 
 app.get('/yo/:buddy',  (req, res) =>{
   res.send('<h1>Yo, ' + req.params.buddy + '!</h1>')
