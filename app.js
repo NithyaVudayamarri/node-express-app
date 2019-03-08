@@ -5,14 +5,14 @@ const hostname = '127.0.0.1'   // set constants
 const port = 3002
 
 app.get('/', function (req, res) {
-  res.send('Welcome home!')
+  res.render('index.html')
 })
 
 app.get('/hello', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/hello',  (req, res) =>{
+app.get('/hey',  (req, res) =>{
   res.send('<h1>hello everyone!How are you doing?</h1>')
 })
 
